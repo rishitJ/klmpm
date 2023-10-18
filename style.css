@@ -1,0 +1,31 @@
+body
+{
+    background-image:url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h3
+{
+    font-size: 25px !important;
+}
+.btn-info:hover
+{
+    background-color: red;
+}
+canvas
+{
+    animation-duration: 6s;
+    animation-name: animation_1;
+    animation-iteration-count: infinite;
+}
+@keyframes animation_1
+{
+    from
+    {
+        box-shadow:5px 5px 200px red;
+    }
+    to
+    {
+        box-shadow:5px 5px 200px blue;
+    }
+}
